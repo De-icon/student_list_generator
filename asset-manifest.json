@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/student_list_generator/static/css/main.f855e6bc.css",
+    "main.js": "/student_list_generator/static/js/main.e58b7593.js",
+    "index.html": "/student_list_generator/index.html",
+    "main.f855e6bc.css.map": "/student_list_generator/static/css/main.f855e6bc.css.map",
+    "main.e58b7593.js.map": "/student_list_generator/static/js/main.e58b7593.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.e58b7593.js"
+  ]
+}
