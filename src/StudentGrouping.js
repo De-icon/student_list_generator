@@ -39,6 +39,7 @@ const StudentGrouping = () => {
     <div className="p-4">
       <div className="mb-4">
         <input
+        style={{padding: "10px", margin: "10px 0"}}
           type="number"
           value={groupSize}
           onChange={(e) => setGroupSize(parseInt(e.target.value))}
@@ -57,7 +58,7 @@ const StudentGrouping = () => {
               <div style={{fontWeight: 700, fontSize: '1rm'}}>Group {index + 1}</div>
             </div>
             <div>
-              <ul>
+              <ul style={{listStyle: "none",}}>
                 {group.map((student) => (
                   <li key={student.id} >
                     {student.name} ----- 23/{student.Rgn}
